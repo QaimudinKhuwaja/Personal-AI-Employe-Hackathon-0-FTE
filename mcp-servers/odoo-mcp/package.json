@@ -1,0 +1,21 @@
+{
+  "name": "odoo-mcp",
+  "version": "1.0.0",
+  "description": "Odoo ERP MCP Server for AI Employee - Accounting Integration",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mcp",
+    "odoo",
+    "erp",
+    "accounting"
+  ],
+  "author": "AI Employee",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.5.0"
+  }
+}

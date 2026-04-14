@@ -1,0 +1,11 @@
+Test Invoice #001
+
+Client: ABC Corporation
+Amount: $1,500.00
+Date: February 24, 2026
+Due Date: March 24, 2026
+
+Services:
+- AI Consulting: 10 hours @ $150/hour
+
+Please process this invoice and record in accounting.

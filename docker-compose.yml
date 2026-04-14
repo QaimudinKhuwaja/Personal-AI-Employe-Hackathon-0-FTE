@@ -1,0 +1,38 @@
+services:
+  odoo:
+    image: odoo:19.0
+    container_name: odoo
+    restart: unless-stopped
+    ports:
+      - "8069:8069"
+    volumes:
+      - odoo-data:/var/lib/odoo
+    environment:
+      - ODOO_ADMIN_PASSWORD=admin
+    depends_on:
+      - db
+    networks:
+      - odoo-net
+
+  db:
+    image: postgres:15-alpine
+    container_name: odoo_db
+    restart: unless-stopped
+    environment:
+      - POSTGRES_DB=postgres
+      - POSTGRES_USER=odoo
+      - POSTGRES_PASSWORD=odoo
+    volumes:
+      - db-data:/var/lib/postgresql/data
+    networks:
+      - odoo-net
+
+networks:
+  odoo-net:
+    driver: bridge
+
+volumes:
+  odoo-data:
+    driver: local
+  db-data:
+    driver: local

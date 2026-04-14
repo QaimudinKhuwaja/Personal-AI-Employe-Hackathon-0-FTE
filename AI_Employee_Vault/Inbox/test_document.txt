@@ -1,0 +1,9 @@
+This is a test document for the AI Employee system.
+
+Please process this file and:
+1. Summarize the content
+2. Categorize it appropriately
+3. Take any required action
+4. Move to Done folder when complete
+
+Thank you!

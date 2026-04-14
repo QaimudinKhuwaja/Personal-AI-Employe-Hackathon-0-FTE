@@ -1,0 +1,55 @@
+{
+  "version": 2,
+  "tier": "Silver",
+  "skills": {
+    "browsing-with-playwright": {
+      "source": "bilalmk/todo_correct",
+      "sourceType": "github",
+      "computedHash": "f73daf75e38650c202e61f652a26578db157f8423e8bcf283bcd93b441641461"
+    },
+    "gmail-watcher": {
+      "source": "local",
+      "sourceType": "local",
+      "description": "Monitor Gmail for new emails via Gmail API"
+    },
+    "whatsapp-watcher": {
+      "source": "local",
+      "sourceType": "local",
+      "description": "Monitor WhatsApp Web for important messages"
+    },
+    "email-mcp": {
+      "source": "local",
+      "sourceType": "local",
+      "description": "Send emails via Gmail API or SMTP"
+    },
+    "linkedin-poster": {
+      "source": "local",
+      "sourceType": "local",
+      "description": "Post updates to LinkedIn via Playwright"
+    },
+    "plan-generator": {
+      "source": "local",
+      "sourceType": "local",
+      "description": "Create structured action plans with checkboxes"
+    },
+    "hitl-approval": {
+      "source": "local",
+      "sourceType": "local",
+      "description": "Human-in-the-loop approval workflow"
+    },
+    "task-scheduler": {
+      "source": "local",
+      "sourceType": "local",
+      "description": "Schedule recurring tasks via cron/Task Scheduler"
+    }
+  },
+  "silver_tier_features": {
+    "gmail_watcher": "complete",
+    "linkedin_poster": "complete",
+    "file_system_watcher": "complete",
+    "email_mcp": "complete",
+    "hitl_approval": "complete",
+    "task_scheduler": "complete"
+  },
+  "last_updated": "2026-02-24"
+}
